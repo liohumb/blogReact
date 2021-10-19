@@ -1,0 +1,29 @@
+.container-contact {
+    max-width: 700px;
+    margin: 100px auto 0;
+    font-size: 25px;
+    text-align: center;
+}
+
+.container-contact h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.container-contact p {
+    margin-top: 20px;
+}
+
+.container-contact p:nth-child(4) {
+    margin-top: 50px;
+}
+
+.container-contact ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+.container-contact ul li {
+    font-size: 80px;
+    margin-top: 25px;
+    list-style: none;
+}
