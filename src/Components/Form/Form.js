@@ -9,7 +9,16 @@ export default function Form() {
     });
     const dispatch = useDispatch();
     const handleForm = e => {
-      e.preventDefault();
+        e.preventDefault();
+
+        dispatch({
+            type: 'ADDARTICLE',
+            payload:article
+        })
+        setArticle({
+            title: "",
+            body: ""
+        })
     }
     const handleInputs = e => {
         if (e.target.classList.contains('inp-title')) {
@@ -21,7 +30,7 @@ export default function Form() {
             setArticle(newObjState);
         }
     }
-    
+    console.log(article)
     return (
         <>
             <h1 className="title-form">Écrivez un article</h1>
