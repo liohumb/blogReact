@@ -32,12 +32,19 @@ nav {
     position: relative;
     font-size: 22px;
 }
+
+.liste a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .items {
     margin: 0 15px;
     text-transform: uppercase;
     color: #f1f1f1;
     cursor: pointer;
 }
+
 .btn {
     display: none;
     position: absolute;
