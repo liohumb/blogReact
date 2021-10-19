@@ -13,7 +13,7 @@ Pour installer les dépendances, puis :
 
 Pour lancer le serveur. Ouvrir [http://localhost:3000](http://localhost:3000) dans le navigateur.
 
-## Qu'est ce que c'est cette application React ?
+## Qu'est-ce que c'est cette application React ?
 
 Blog est une application qui va permettre d'écrire et lire des articles.  
 C'est un blog quoi !
