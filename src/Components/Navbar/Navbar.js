@@ -29,11 +29,11 @@ export default function Navbar() {
             {(toggleMenu || largeur > 500) && (
                 <ul className="liste">
                     <li className="items">Accueil</li>
-                    <li className="items">Services</li>
+                    <li className="items">Écrire</li>
                     <li className="items">Contact</li>
                 </ul>
             )}
-            <button onClick={toggleNav} className="btn">BTN</button>
+            <a onClick={toggleNav} className="btn"><i className="uil uil-list-ul"/></a>
         </nav>
     );
 }
